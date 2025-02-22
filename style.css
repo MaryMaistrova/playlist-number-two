@@ -1,61 +1,90 @@
 body {
-  margin: 0;
   padding: 0;
   background-image: url(images/bc.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  justify-content: center;
 }
 
 .wrapper {
-  position: relative;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  column-gap: 70px; 
+}
+
+section:nth-of-type(1){
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 4;
+  grid-row-end: 6;
+}
+
+section:nth-of-type(2){
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+section:nth-of-type(3){
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+section:nth-of-type(4){
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+section:nth-of-type(5){
+  grid-column-start: 5;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+section:nth-of-type(6){
+  grid-column-start: 6;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+section:nth-of-type(7){
+  grid-column-start: 7;
+  grid-column-end: 7;
+  grid-row-start: 4;
+  grid-row-end: 6;
 }
 
 section {
-  position: absolute;
   display: flex;
   flex-direction: column;
-}
-
-section:nth-of-type(1) {
-  top: 500px;
-  left: 50px;
-}
-
-section:nth-of-type(2) {
-  top: 400px;
-  left: 290px;
-}
-
-section:nth-of-type(3) {
-  top: 300px;
-  left: 530px;
-}
-
-section:nth-of-type(4) {
-  top: 200px;
-  left: 770px;
-}
-
-section:nth-of-type(5) {
-  top: 300px;
-  left: 1010px;
-}
-
-section:nth-of-type(6) {
-  top: 400px;
-  left: 1250px;
-}
-
-section:nth-of-type(7) {
-  top: 500px;
-  left: 1490px;
+  justify-content: center;
 }
 
 img {
-  height: 300px;
-  width: 220px;
+  height: 200px;
+  width: 150px;
 }
 
+h4 {
+  font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+}
+
+span, li {
+  font-family: "Federant", Arial, Helvetica, sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
 
 body {
 
@@ -68,7 +97,7 @@ body {
       position: absolute;
       left: -491px;
       right: 0;
-      top: calc(90% - 140px);
+      top: calc(70% - 140px);
       transform: translateY(-50%);
       margin: auto;
   }
