@@ -51,7 +51,3 @@ li {
 .card-front {
   transform: rotateY(180deg);
 }
-
-.reversed {
-  transform: rotateY(180deg);
-}
