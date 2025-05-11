@@ -13,23 +13,26 @@ body {
   column-gap: 70px; 
 }
 
-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.wrapper>ul {
+  background-color: gray;
+  filter: opacity(65%);
+}
+
+h3 {
+  font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: rgb(87, 86, 85);
+  text-align: center;
 }
 
 img {
-  height: 200px;
-  width: 150px;
-}
-
-h4 {
-  font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+  width: 200px;
+  height: 250px;
 }
 
 span, li {
   font-family: "Federant", Arial, Helvetica, sans-serif;
+  font-size: 18px;
 }
 
 li {
@@ -37,17 +40,3 @@ li {
 }
 
 
-.card-whole:hover .card-inner,
-.card-whole.flipped .card-inner {
-  transform: rotateY(-180deg);
-}
-
-.card-front,
-.card-back {
-  position: absolute;
-  backface-visibility: hidden;
-}
-
-.card-front {
-  transform: rotateY(180deg);
-}
