@@ -1,3 +1,7 @@
 .wrapper {
   grid-template-columns: 210px;
 }
+
+img {
+  filter: brightness(70%);
+}
