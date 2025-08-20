@@ -1,3 +1,8 @@
+body { 
+   opacity: 0;
+   transition: opacity .5s;
+}
+
 .wrapper {
   grid-template-columns: 210px 210px 210px 210px 210px;
 }

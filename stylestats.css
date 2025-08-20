@@ -1,0 +1,26 @@
+h1.stats {
+  font-size: 80px;
+  color: rgb(22, 67, 64);
+  margin-left: 0px;
+}
+
+.wrapper {
+  min-width: 800px;
+}
+
+h3 {
+  text-align: left;
+    margin-bottom: 0px;
+    font-size: 32px;
+}
+
+h5 {
+  font-family: "Josefin Sans", serif;
+  font-size: large;
+  color: rgb(70, 92, 90);
+  margin-top: 0px;
+}
+
+.info {
+  margin-bottom: 50px;
+}
