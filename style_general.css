@@ -61,3 +61,23 @@ li {
 .stats {
   margin-left: -40px;
 }
+
+.sign {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  padding-top: 50px;
+}
+
+.signs {
+  width: 100px;
+  height: 50px;
+  opacity: 50%;
+  cursor: pointer;
+  transition: 200ms;
+}
+
+.signs:hover {
+  transition: 200ms;
+  opacity: 80%;
+}

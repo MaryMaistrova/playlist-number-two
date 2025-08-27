@@ -1,3 +1,8 @@
+body { 
+   opacity: 0;
+   transition: opacity .5s;
+}
+
 h1.stats {
   font-size: 80px;
   color: rgb(22, 67, 64);
