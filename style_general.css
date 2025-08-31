@@ -3,6 +3,8 @@ body {
   background-image: url(images/bc.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
   display: flex;
   justify-content: center;
 }
@@ -73,8 +75,8 @@ li {
   width: 100px;
   height: 50px;
   opacity: 50%;
-  cursor: pointer;
   transition: 200ms;
+  cursor: url('images/cursor.png'), default;
 }
 
 .signs:hover {

@@ -16,7 +16,7 @@ body {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 100px;
 }
 
 h2 {
@@ -26,11 +26,12 @@ h2 {
 a {
   text-decoration: none;
   color: black;
+  transition: 200ms;
 }
 
 a:hover, h2:hover {
-  text-decoration: underline;
   color: rgb(79, 41, 41);
+  transition: 200ms;
 }
 
 body {

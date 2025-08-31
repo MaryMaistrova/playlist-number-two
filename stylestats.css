@@ -29,3 +29,7 @@ h5 {
 .info {
   margin-bottom: 50px;
 }
+
+#ST {
+  cursor: pointer;
+}

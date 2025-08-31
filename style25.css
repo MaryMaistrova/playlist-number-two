@@ -1,7 +1,49 @@
-body { 
-   opacity: 0;
-   transition: opacity .5s;
+body {
+  opacity: 0;
+  transition: opacity .5s;
+  cursor: url('images/cursor.png'), default;
 }
+
 .wrapper {
   grid-template-columns: 210px;
+}
+
+img {
+  transition: 300ms;
+  filter: brightness(90%);
+}
+
+img:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  transition: 300ms;
+  filter: brightness(100%);
+}
+
+h3 {
+  transition: 300ms;
+}
+
+ul:hover h3 {
+  color: rgb(58, 57, 57);
+  transition: 300ms;
+}
+
+.textodesu{
+  color: rgb(87, 86, 86);
+  transition: 300ms;
+}
+
+ul:hover .textodesu{
+  color: black;
+  transition: 300ms;
+}
+
+.stats{
+  color: rgb(87, 86, 86);
+  transition: 300ms;
+}
+
+ul:hover .stats{
+  color: black;
+  transition: 300ms;
 }
