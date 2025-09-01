@@ -4,13 +4,14 @@ body {
 }
 
 h1.stats {
-  font-size: 80px;
+  font-size: 60px;
   color: rgb(22, 67, 64);
   margin-left: 0px;
 }
 
 .wrapper {
   min-width: 800px;
+  max-width: 1200px;
 }
 
 h3 {
